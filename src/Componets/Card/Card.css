@@ -1,0 +1,34 @@
+.Card-container{
+	width: 270px;
+	height: 420px;
+	border-radius: 15px;
+	border: 2px solid #242858;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	overflow: hidden;
+	margin: 10px;
+	background-color: #242858;
+	text-align: center;
+}
+.Card-img{
+	width: 100%;
+	height: auto;
+	margin-top: 0;
+
+}
+.Card-title{
+color: white;
+font-family: 'Poppins', sans-serif;
+font-size: 1.3rem;
+font-weight: 500;
+margin: 0;
+}
+.Card-text{
+color: white;
+font-family: 'Poppins', sans-serif;
+font-size: 0.7rem;
+font-weight: 300;
+width: 95%;
+}
