@@ -1,0 +1,129 @@
+.Cover{
+	position: relative;
+	width: 100%;
+	height: 570px;
+
+}
+.Cover-container{
+	width: 100%;
+	height: 300px;
+    background-color: #e8e9e9;
+}
+.Cover-wave{
+	width: 100%;
+	height: auto;
+	background-color: #e8e9e9;
+	margin-bottom: 0;
+	
+}
+
+.Cover-container-top{
+	width: 100%;
+	height: 620px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	top: 0;
+}
+.Cover-textcontainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Cover-img{
+	width: auto;
+	height: 80%;
+}
+.Cover-logo-text{
+font-family: 'Poppins', sans-serif;
+font-size: 3rem;
+font-weight: 800;
+margin: 0;
+color:#242858;
+}
+.Cover-button{
+	width: 220px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-color: #242858;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top:10px;
+}
+.Cover-button:hover{
+	background-color: black;
+	color: white;
+}
+@media (max-width: 1300px) {
+	.Cover{
+	height: 520px;
+}
+.Cover-container-top{
+	height: 400px;
+}
+.Cover-container{
+	height: 320px;
+}
+.Cover-img{
+	height: 60%;
+}
+.Cover-logo-text{
+text-align: center;
+font-size: 2.3rem;
+font-weight: 800;
+}
+
+}
+@media (max-width: 1000px) {
+		.Cover{
+	height: 450px;
+}
+.Cover-container-top{
+	height: 400px;
+}
+.Cover-img{
+	height: 60%;
+}
+.Cover-logo-text{
+text-align: center;
+font-size: 2rem;
+}
+}
+@media (max-width: 700px) {
+		.Cover{
+	height:320px;
+
+}
+.Cover-logo-text{
+text-align: center;
+font-size: 1.4rem;
+font-weight: 800;
+}
+.Cover-img{
+	height: 40%;
+}
+.Cover-container-top{
+	width: 100%;
+	height: 420px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+}
+.Cover-button{
+	width: 170px;
+	height: 40px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+ 
+}
+
+}

@@ -1,0 +1,68 @@
+.TopBar-container{
+width: 100%;
+height: 80px;
+background-color: #e8e9e9;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+
+}
+.TopBar-img{
+	width: auto;
+	height: 70px;
+	margin-left: 100px;
+
+}
+.TopBar-title{
+margin-right: 100px;
+font-family: 'Poppins', sans-serif;
+font-size: 1.3rem;
+font-weight: 300;
+color: #242858;
+}
+.TopBar-strong{
+	font-size: 1.4rem;
+	font-weight: 800;
+}
+
+@media (max-width: 1300px) {
+.TopBar-img{
+	height: 60px;
+	margin-left: 50px;
+}
+.TopBar-title{
+margin-right: 50px;
+font-size: 1rem;
+}
+.TopBar-strong{
+	font-size: 1.2rem;
+}
+
+}
+@media (max-width: 1000px) {
+.TopBar-img{
+	height: 40px;
+	margin-left: 30px;
+}
+.TopBar-title{
+margin-right: 30px;
+font-size: 0.8rem;
+}
+.TopBar-strong{
+	font-size: 1rem;
+}
+}
+@media (max-width: 700px) {
+.TopBar-img{
+	height:35px;
+	margin-left: 10px;
+}
+.TopBar-title{
+margin-right: 10px;
+font-size: 0.6rem;
+}
+.TopBar-strong{
+	font-size: 0.8rem;
+}
+}
